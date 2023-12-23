@@ -79,6 +79,8 @@ const Feed = () => {
           className="search_input peer"
         />
       </form>
+
+      {/* All Prompts  */}
       {searchText ? (
         <PromptCardList
           data={searchedResults}
